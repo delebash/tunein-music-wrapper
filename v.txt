@@ -1,0 +1,16 @@
+0.37.2
+1.0.1
+1.0.2 fine
+1.2.2 fails
+
+
+
+packager version does not seem to matter
+
+works
+"build-win": "electron-packager . musicwrapper --debug=electron-packager --platform=win32 --arch=ia32 --version=1.0.2 --overwrite --out ./build/win",
+ "electron-prebuilt": "^1.0.2",
+
+fails
+ "build-win": "electron-packager . musicwrapper --debug=electron-packager --platform=win32 --arch=ia32 --version=1.2.2 --overwrite --out ./build/win",
+ "electron-prebuilt": "^1.2.2",
