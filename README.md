@@ -177,3 +177,6 @@ cd / { path to app }
 electron-packager . 'Demo Electron AngularJS' --platform=win32 --arch=ia32 --version=0.35.1 --overwrite --out ./build/win
 or
 npm run-script build-win
+
+## Set Url ##
+just modify sitetoload in package.json to the site you wish to open
