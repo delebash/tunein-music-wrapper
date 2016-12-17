@@ -43,10 +43,21 @@
   }, {
     "label": "&View",
     "submenu": [{
-      "label": "&Reload",
-      "command": "window:reload",
-      "accelerator": "Control+R"
-    }, {
+      "label": "&Change Site",
+      "command": "window:changesite",
+      "accelerator": "Control+S"
+    },
+      {
+        "label": "&Reload",
+        "command": "window:reload",
+        "accelerator": "Control+Shift+R"
+      },
+      {
+        "label": "&Back",
+        "command": "window:browserback",
+        "accelerator": "Control+Shift+B"
+      },
+      {
       "label": "Toggle &Full Screen",
       "command": "window:toggle-full-screen",
       "accelerator": "Control+Shift+F"
