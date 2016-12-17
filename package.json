@@ -17,7 +17,6 @@
   },
   "license": "Unlicense",
   "main": "lib/google-music-electron",
-  "sitetoload": "https://tunein.com",
   "engines": {
     "node": ">= 0.10.0"
   },
